@@ -37,11 +37,11 @@ body {
     margin: 0 auto;
     padding: .5rem 0;
     text-align: center;
-    /* background: red; */
 }
 
 .contenedor__textarea {
     width: 100%;
+    max-width: 500px;
     height: 200px;
     padding: .5rem;
     outline: none;
