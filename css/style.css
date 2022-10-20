@@ -28,7 +28,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 /* Contenedor */
@@ -71,5 +70,27 @@ body {
 @media only screen and (min-width: 768px) {
     .contenedor__textarea {
         height: 250px;
+    }
+}
+
+/* Media desktop */
+@media only screen and (min-width: 1440px) {
+
+    body {
+        max-width: 1400px;
+    }
+
+    .contenedor__textarea {
+        max-width: 1000px;
+        height: 500px;
+        font-size: 1.5rem;
+    }
+
+    .contenedor__textarea::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .contenedor__p {
+        font-size: 1.4rem;
     }
 }
